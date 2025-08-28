@@ -7,9 +7,9 @@ querySelector selects first element matching any css selector in the code,queryS
 Ans: firstly i create a variable and using create element, i create a  empty div as a example, then i add text in the new box then
 using appendChild i push it into the main section of the code.
 
-let box=document.createElement("div");
-box.innerText ="Hello";
-document.body.appendChild(box);
+let box=document.createElement("div");<br>
+box.innerText ="Hello";<br>
+document.body.appendChild(box);<br>
 
 3.What is Event Bubbling and how does it work?<br>
 Ans: Event Bubbling is a procces or technique when a event starts on a child element and automatically move up to it's parent elements.
